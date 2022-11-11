@@ -44,7 +44,7 @@ app.get('/math', (req, res) => {
   })
 })
 
-const PORT = 23333
+const PORT = process.env.PORT || 80
 app.listen(PORT, () => {
   console.log(`🚀 HumbleGO starts listening on port ${PORT}`)
 })

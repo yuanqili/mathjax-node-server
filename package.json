@@ -3,7 +3,8 @@
   "version": "0.1",
   "main": "src/index.js",
   "scripts": {
-    "mathjax dev": "node-dev src/index.js"
+    "mathjax-dev": "node-dev src/index.js",
+    "mathjax-start": "node src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
