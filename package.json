@@ -1,0 +1,29 @@
+{
+  "name": "humblego-server",
+  "version": "0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "mathjax dev": "node-dev src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "mathjax-node": "^2.1.1",
+    "morgan": "^1.10.0",
+    "yuml2svg": "^5.0.1"
+  },
+  "devDependencies": {
+    "node-dev": "^7.4.3",
+    "prettier": "2.7.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "printWidth": 80
+  }
+}
